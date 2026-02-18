@@ -36,11 +36,10 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loaderText.classList.remove('hidden');
+  loader.classList.add("is-visible");
 }
 
 export function hideLoader() {
-  loaderText.classList.add('hidden');
+  loader.classList.remove("is-visible");
 }
-
 
