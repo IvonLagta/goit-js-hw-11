@@ -113,32 +113,6 @@ body {
   margin-bottom: 4px;
 }
 
-.loader-text {
-  text-align: center;
-  font-size: 16px;
-  margin: 20px 0;
-}
-
-.load-more {
-  display: block;
-  margin: 0 auto 40px;
-  padding: 10px 20px;
-  background-color: #4e75ff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.load-more:hover {
-  background-color: #6c8cff;
-}
-
-.hidden {
-  display: none;
-}
-/* ===== Loader ===== */
-
 .loader {
   width: 48px;
   height: 48px;
@@ -158,3 +132,4 @@ body {
     transform: rotate(360deg);
   }
 }
+
