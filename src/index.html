@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-js-hw-11</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="../node_modules/flatpickr/dist/flatpickr.min.css"/>
+    <link
+      rel="stylesheet"
+      href="../node_modules/flatpickr/dist/flatpickr.min.css"
+    />
   </head>
   <body>
     <main>
@@ -15,19 +18,23 @@
           <input
             type="text"
             name="search-text"
-            placeholder="We're looking for images..."
+            placeholder="Search images..."
             required
           />
         </label>
         <button type="submit">Search</button>
       </form>
+
       <ul class="gallery"></ul>
-      <div class="loader hidden"></div>
-      <p class="loader-text hidden">Loading images...</p>
+      
+      <span class="loader"></span>
+
+      <button type="button" class="load-more hidden">Load more</button>
     </main>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
+
 
 
 
